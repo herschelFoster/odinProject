@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="../styles/form.css">
+        <title>Forms Test</title>
+    </head>
+    <script src="../js/form.js"></script>
+    <body>
+        <div class="background">
+            <div class="banner">
+                <div class="logo">
+                    <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+                    <p class="logoText">ODIN</p>
+                </div>
+            </div>
+            <img src="https://images.unsplash.com/photo-1757664171309-f5c082f8d64c?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <div class="credit">
+                <p>Photo by <a href="https://unsplash.com/@kristapsungurs">Kristap Ungurs</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+            </div>
+        </div>
+        
+        <main>
+            <div class="form-container">
+                <p class="title"><b>Sign up for Nothing</b></p>
+                <p class="flavortext bt">
+                    This is <b>not</b> a real online service.
+                    Signing up will not do anything, but the form demonstrates client-side validation 
+                    and layout for learning purposes.<br><br> Clicking Log in will send you back to the dashboard.
+                </p>
+                <form id="signupForm" novalidate>
+                    <fieldset>
+                        <div class="formitem">
+                            <label for="fname">First name</label><br>
+                            <input type="text" id="fname" name="fname" placeholder="John" required>
+                        </div>
+                        <div class="formitem">
+                            <label for="lname">Last name</label><br>
+                            <input type="text" id="lname" name="lname" placeholder="Doe" required>
+                        </div>
+
+                        <div class="formitem">
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" name="email" placeholder="jdoe@email.com" required>
+                        </div>
+                        <div class="formitem">
+                            <label for="pnum">Phone Number</label><br>
+                            <input type="tel" id="pnum" name="pnum" placeholder="123 456 7890" required maxlength="12">
+                        </div>
+                        <div class="formitem">
+                            <label for="pword">Password</label><br>
+                            <input type="text" id="pword" name="pword" placeholder="johnny123" required>
+                        </div>
+                        <div class="formitem">
+                            <label for="cpword">Confirm Password</label><br>
+                            <input type="text" id="cpword" name="cpword" placeholder="johnny123" required>
+                        </div>
+                    </fieldset>
+                    
+                    <button type="submit" id="submitBtn" disabled><b>Create Account</b></button>
+                    <div class="login">
+                    <p>Already have an account? <a href="../index.html">Log in</a></p>
+                    </div>
+                </form> 
+            </div>
+        </main>
+    </body>
+</html>
