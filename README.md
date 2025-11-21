@@ -3,6 +3,7 @@
 
 This repository contains a collection of webpages and mini-projects completed as part of **The Odin Project**, a full-stack web development curriculum.  
 Each project follows the official assignments but includes **additional functionality, custom styling, and UX improvements** beyond the base requirements.
+Can be viewed at [https://herschelfoster.github.io/odinProject/]
 
 ## 🚀 What’s Inside
 
