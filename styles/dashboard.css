@@ -381,9 +381,6 @@ main {
   background-color: white;
   border-radius: var(--standardRad);
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.05);
-}
-
-#first {
   margin-bottom: 0;
 }
 
@@ -415,10 +412,6 @@ main {
   padding: 0;
   font-size: 18px;
   color: black;
-}
-
-.link::before {
-  content: "→";
 }
 
 .mcont {

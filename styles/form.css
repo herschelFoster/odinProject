@@ -194,6 +194,7 @@ input {
   color: white;
   border-radius: var(--standardRad);
   box-sizing: border-box; 
+  margin-top: 0.25rem;
 }
 
 input:hover{
