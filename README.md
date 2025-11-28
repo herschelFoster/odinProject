@@ -19,28 +19,12 @@ This repo includes multiple self-contained webpages demonstrating:
 ## 📂 Folder Structure
 
 ```
-/docs               
-  index.html        → Main landing page
-  other-pages.html  → Additional Odin Project assignments
-/css                → Stylesheets for each mini-project
+index.html          → Main landing page
+/pages              → Additional Odin Project assignments
+/styles             → Stylesheets for each mini-project
 /js                 → JavaScript logic 
 /assets             → Images, icons, and media
 ```
-
-
-## 🧪 Extra Features Added
-
-These enhancements go beyond the Odin Project requirements:
-
-- **Live input validation** with red borders for invalid fields
-- **Password confirmation** checks
-- **Auto-formatting** for phone numbers
-- **Disabled submit button** until the form is fully valid
-- **Image-driven accent colour extraction**
-- **Responsive grid cards** with dynamic shadows and borders
-- **Theming with CSS variables** for easy palette switching
-- **Cleaner folder organization for scalability**
-
 
 
 ## 📚 About The Odin Project
