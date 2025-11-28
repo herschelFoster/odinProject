@@ -2,8 +2,10 @@
 # 📁 The Odin Project — Web Development Exercises
 
 This repository contains a collection of webpages and mini-projects completed as part of **The Odin Project**, a full-stack web development curriculum.  
+
 Each project follows the official assignments but includes **additional functionality, custom styling, and UX improvements** beyond the base requirements.
-[Live preview](https://herschelfoster.github.io/odinProject/)
+
+The [live preview](https://herschelfoster.github.io/odinProject/) will take you to a main dashboard from which other projects may be viewed.
 
 ## 🚀 What’s Inside
 
