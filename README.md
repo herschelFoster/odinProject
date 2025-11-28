@@ -45,7 +45,7 @@ These enhancements go beyond the Odin Project requirements:
 
 ## 📚 About The Odin Project
 
-**The Odin Project** (https://www.theodinproject.com) is a free, open-source curriculum for learning full-stack web development.  
+[**The Odin Project**](https://www.theodinproject.com) is a free, open-source curriculum for learning full-stack web development.  
 This repo includes projects from the Foundations and early JavaScript sections, expanded with personal improvements.
 
 ## 📜 License
